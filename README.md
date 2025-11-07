@@ -189,13 +189,9 @@ The recommendations will still work correctly.
 - [ ] Real-time search with autocomplete
 - [ ] Mobile responsive design
 
-## 📝 License
-
-This project is open source and available under the MIT License.
-
 ## 👨‍💻 Author
 
-Created with ❤️ using Python, Streamlit, and Docker
+Created with passion by Shrish Mishra
 
 ---
 
