@@ -1,6 +1,17 @@
 # 🎬 Movie Recommender System
 
-A content-based movie recommendation system built with Python, Streamlit, and TMDB API. Deployed using Docker for easy containerization.
+A content-based movie recommendation system which was built using :
+
+- First tags were extracted from the dataset such as Director's name , Actor's name , Genre and Overview
+- Then I performed data tranformation and remove space in between words
+- Next step was to combine all the extracted features in one line called "Tags"
+- Then i extracted 5k commong words and capared each movie tags with them to form a 5000x5000 matrix
+- I used Text vectorization to convert matrix of each tags into verctor(cordinates) and then we will plot in a 2d space
+- Now we have to calculate distance between to vectors in 2d space to calculate the similarity
+- I used Cosine distance which is angle between two vectors point
+- I did not used Eucladian distance is not a good measure to find distance between two points when we have high dimensionality points
+- Again we will plot a 5000x5000 matrix of all the similarity between movies
+- After sorting and enumirating values in matrix we get most simmilar movies
 
 ## Features
 
